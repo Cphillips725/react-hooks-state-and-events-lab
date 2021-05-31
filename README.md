@@ -31,6 +31,7 @@ light mode. Using the `useState` hook, create a state variable in the `App`
 component. Then, use that variable to determine if our app should be in dark
 mode or light mode.
 
+
 You will also need to add an event handler to the dark mode button, and update
 state when the button is clicked.
 
@@ -53,7 +54,7 @@ variable:
 In the `Item` component, when the user clicks the `<button>` element, the item
 should be added to their virtual cart. The way we'll show the user that the item
 is in the cart is by changing the className on the `<li>` element:
-
+  
 ```js
 <li className="in-cart">
 {/* the item is in the cart */}
@@ -83,3 +84,4 @@ items based on the `selectedCategory`.
 ## Resources
 
 - [React Docs on `useState`](https://reactjs.org/docs/hooks-state.html)
+ 
